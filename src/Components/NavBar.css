@@ -1,0 +1,110 @@
+
+.NavBar{
+    background-color: rgb(17, 17, 17);
+    margin-left: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    padding-top: 60px;
+    display: flex;
+    height: 90px;
+}
+.NavbarItems{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-left: 80px;
+}
+.NavbarLinks{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.NavLogo{
+    display: flex;
+    height: 40px;
+    padding-top: 20px;
+    bottom: 35px;
+    position: relative;
+    padding-left: 50px;
+}
+
+header .NavButton {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+@media only screen and (min-width: 1px) {
+	header .NavButton {
+        visibility: visible;
+        opacity: 1;
+        padding-left: 65%;
+        float: right;
+        /* padding-bottom: 0px; */
+        margin-top: -50px;
+	}
+}
+@media only screen and (min-width: 576px) {
+	header .NavButton {
+        padding-left: 70%;
+	}
+}
+@media only screen and (min-width: 768px) {
+	header .NavButton {
+        padding-left: 80%;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	header .NavButton {
+        padding-left: 0%;
+        visibility: hidden;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	header .NavButton {
+        visibility: visible;
+        opacity: 1;
+        float: right;
+        /* padding-bottom: 0px; */
+        margin-top: -50px;
+	}
+
+	header .NavbarItems {
+		position: fixed;
+		top: -200vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color:black;
+		transition: 1s;
+        z-index: 2;
+        padding-left: 10px;
+        margin-left: auto;
+	}
+
+	header .responsive_nav {
+		transform: translateY(200vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}

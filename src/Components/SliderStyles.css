@@ -1,0 +1,40 @@
+
+.BlockHeader{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 3%;
+    color: rgb(102 102 102);
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    text-transform: uppercase;
+}
+.SliderImage1{
+    height: 500px;
+}
+.SliderImage2{
+    height: 200px;
+}
+
+.SliderDate{
+    text-align: left;
+    margin-left: 11%;
+    color: rgb(60 60 60);
+    font-size: 15px;
+}
+.SliderTitle{
+    text-align: left;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.SliderText{
+    margin-left: 11%;
+    text-align: left;
+    line-height: 27px;
+    font-size: 20px;
+}
+.BlackContainer{
+    background-color: rgb(17, 17, 17);
+}
+.DarkTheme{
+    color: aliceblue;
+}

@@ -1,0 +1,130 @@
+.FirstTeaser{
+    background-color: rgb(17,17,17);
+    padding-top: 50px;
+}
+.ImportantTeaser{
+    width: 90%;
+    margin-left: 3.5%;
+}
+.MainImage{
+    width: 99%;
+}
+.MainBlockDate{
+    text-align: left;
+    color: rgb(150,150,150);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.MainBlockText{
+    color: rgba(255,255,255,0.5);
+    text-align: left;
+    margin-top: -15px;
+    font-size: 24px;
+}
+.MainBlockHeader{
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+    font-size: 46px;
+}
+.OtherTeasers{
+    width: 80%;
+    padding-left: 3.5%;
+}
+.TeaserColumns{
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    border-color: white;
+    padding-bottom: 20px;
+}
+.OtherImage{
+    width: 45%;
+    height: 100%;
+}
+.TextContent{
+    padding-left: 12px;
+}
+.OtherBlockHeader{
+    text-align: left;
+    color: WHITE;
+    font-size: 28px;
+}
+.OtherBlockDate{
+    text-align: left;
+    color: rgb(150,150,150);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+    margin-left: 0px;
+}
+@media (min-width: 576px)
+{
+
+}
+@media (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1680px){
+
+}
+
+@media (min-width: 992px)
+{
+    .FirstTeaser{
+        display: flex;
+    }
+    .OtherImage {
+        width: 50%;
+        height: 44%;
+    }
+    .TextContent {
+        text-align: left;
+        /* font-size: 18px; */
+        margin-left: 5.6%;
+        line-height: 26px;
+        color: #4c4c4c;
+    }
+    .OtherBlockDate {
+        text-align: left;
+        color: rgb(150,150,150);
+        font-weight: 600;
+        font-size: 14px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+    .OtherBlockHeader {
+        text-align: left;
+        color: WHITE;
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+    .OtherImage{
+        width: 45%;
+    }
+    .TextContent{
+        padding-left: 12px;
+    }
+    .OtherBlockHeader{
+        text-align: left;
+        color: WHITE;
+        font-size: 28px;
+    }
+    .OtherBlockDate{
+        text-align: left;
+        color: rgb(150,150,150);
+        font-weight: 600;
+        font-size: 18px;
+        margin: 10px;
+        margin-left: 0px;
+    }
+}

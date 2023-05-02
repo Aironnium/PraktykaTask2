@@ -1,0 +1,75 @@
+.StaticBlocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.StaticBlock{
+    width: 480px;
+}
+.StaticImage{
+    height: 250px;
+
+}
+.Date{
+    text-align: left;
+    margin-left: 8%;
+    font-weight: 700;
+    color: #767676;
+    font-size: 11px;
+    font-weight: 600;
+}
+.Header{
+    text-align: left;
+    margin-left: 8%;
+    font-size: 28px;
+}
+.TextContent{
+    text-align: left;
+    margin-left: 5.6%;
+    line-height: 26px;
+    color: #4c4c4c;
+}
+@media (min-width: 576px)
+{
+    .container, .container-sm {
+        max-width: 540px;
+    }
+
+
+}
+@media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+}
+@media (max-width:767px){
+    .StaticImage{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1680px){
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1440px;
+    }
+}

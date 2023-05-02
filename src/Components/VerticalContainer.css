@@ -1,0 +1,25 @@
+.OneContainer{
+    padding-top: 30px;
+    padding-bottom: 170px;
+}
+.DateVerticalContainer{
+    text-align: left;
+    font-size: 15px;
+    color: rgb(118 118 118);
+}
+.Title{
+    text-align: left;
+    font-size: 23px;
+    margin-top: -10px;
+}
+.TextBlock{
+    text-align: left;
+    font-size: 16px;
+    margin-top: -11px;
+}
+.ImageBlock{
+    display: flex;
+    float: right;
+    height: 270px;
+    padding-left: 35px;
+}

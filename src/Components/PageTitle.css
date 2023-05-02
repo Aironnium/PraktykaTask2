@@ -1,0 +1,64 @@
+.PageTitle{
+    font-size: 60px;
+    text-transform: uppercase;
+    background: rgb(17,17,17);
+    margin-top: -17px;
+    color: white;
+    letter-spacing: -5px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(100,100,100);
+    border-top: 1px solid;
+    border-top-color: rgb(100,100,100);
+    height: 90px;
+}
+.TitleText{
+    margin: 0;
+    font-weight: 900;
+    bottom: 0px;
+    position: relative;
+}
+@media (min-width: 576px){
+    .PageTitle{
+        font-size: 100px;
+        height: 115px;
+    }
+    .TitleText{
+        bottom: 15px;
+    }
+}
+@media (min-width: 768px){
+    .PageTitle{
+        font-size: 130px;
+        height: 150px;
+    }
+    .TitleText{
+        bottom: 20px;
+    }
+}
+@media (min-width: 1024px){
+    .PageTitle{
+        font-size: 165px;
+        height: 170px;
+    }
+    .TitleText{
+        bottom: 40px;
+    }
+}
+@media (min-width: 1200px){
+    .PageTitle{
+        font-size: 170px;
+        height: 165px;
+    }
+    .TitleText{
+        bottom: 45px;
+    }
+}
+@media (min-width: 1440px){
+    .PageTitle{
+        font-size: 223px;
+        height: 215px;
+    }
+    .TitleText{
+        bottom: 60px;
+    }
+}
